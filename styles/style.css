@@ -15,7 +15,7 @@ p{
     width: 100%;
     
 }
-@media  screen and (max-width:430px) {
+@media  screen and (max-width:400px) {
     .vid-grid{
         background-color: lightblue;
         grid-template-columns:1fr;
