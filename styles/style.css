@@ -10,18 +10,11 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .thumbnail{
     width: 100%;
     
 }
-@media  screen and (max-width:2000px) {
-    .vid-grid{
-        background-color: lightblue;
-        grid-template-columns:1fr;
-        
-    }
-}
+
 .pp{
     width: 85%;
     border-radius: 40px;
@@ -54,9 +47,7 @@ margin-bottom: 4px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 20px;
-    row-gap: 40px;
-   
-    
+    row-gap: 40px;  
 }
 .video-info{
     display:grid;
@@ -72,4 +63,17 @@ margin-bottom: 4px;
     font-family: Roboto,Arial;
     padding: 6px;
     border-radius: 4px;
+}
+@media  screen and (max-width:900px) {
+    .vid-grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+@media  screen and (max-width:600px) {
+    .vid-grid{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
 }
