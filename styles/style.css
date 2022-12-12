@@ -15,12 +15,13 @@ p{
     width: 100%;
     
 }
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:2000px) {
     .vid-grid{
         background-color: lightblue;
         grid-template-columns:1fr;
         
     }
+}
 .pp{
     width: 85%;
     border-radius: 40px;
